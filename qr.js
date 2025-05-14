@@ -59,11 +59,11 @@ router.get('/', async (req, res) => {
 				   let session = await Qr_Code_By_Maher_Zubair.sendMessage(Qr_Code_By_Maher_Zubair.user.id, { text: 'SIGMA-MD;;;' + b64data });
 	
 				   let SIGMA_MD_TEXT = `
-*_Qr Code By Maher Zubair_*
+*_Qr Code By Khaos lord_*
 *_Made With 🤍_*
 	
 _Don't Forget To Give Star To My Repo_`
-	 await Qr_Code_By_Maher_Zubair.sendMessage(Qr_Code_By_Maher_Zubair.user.id,{text:SIGMA_MD_TEXT},{quoted:session})
+	 await Qr_Code_By_Khaos_lord.sendMessage(Qr_Code_By_Maher_Zubair.user.id,{text:SIGMA_MD_TEXT},{quoted:session})
 
 
 
@@ -85,6 +85,6 @@ _Don't Forget To Give Star To My Repo_`
 			await removeFile("temp/" + id);
 		}
 	}
-	return await SIGMA_MD_QR_CODE()
+	return await BRYAN_MD_QR_CODE()
 });
 module.exports = router
